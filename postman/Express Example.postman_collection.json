@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "e268ad08-42eb-4268-a91f-4fb8c9dbc67c",
+		"name": "Express Example",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18236537"
+	},
+	"item": [
+		{
+			"name": "GET Friends",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/friends",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"friends"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
