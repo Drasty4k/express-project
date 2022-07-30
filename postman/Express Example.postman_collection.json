@@ -24,6 +24,26 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "GET one friend",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/friends/0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"friends",
+						"0"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
