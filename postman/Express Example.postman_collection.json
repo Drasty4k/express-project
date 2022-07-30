@@ -44,6 +44,34 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "POST Friends",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Dragos\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/friends",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"friends"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
